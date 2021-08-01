@@ -1,0 +1,8 @@
+// Server
+export const CLIENT_CONNECTED = 'CLIENT_CONNECTED';
+export const CLIENT_DISCONNECTED = 'CLIENT_DISCONNECTED';
+
+//GAME
+export const STATE_CHANGE = 'STATE_CHANGE';
+export const GAME_STARTED = 'GAME_STARTED';
+export const GAME_CRASHED = 'GAME_CRASHED';

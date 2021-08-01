@@ -1,0 +1,15 @@
+import { State } from './game.enum';
+export declare const TIME_BETWEEN_CRASH_AND_NEW_ROUND: number;
+export declare const TIME_BETWEEN_CRASH_AND_BET: number;
+export declare const TIME_BETWEEN_RUNNING_AND_BET: number;
+export declare const TIME_TO_CRASH: number;
+export declare const TIME_BETWEEN_BETS_AND_RUNNING: number;
+export declare const TIME_BETWEEN_STARTED_AND_BET: number;
+export declare const SALT = "SALT";
+export declare const MULTIPLIER_INCREASE_INTERVAL = 20;
+export declare const START_EVENT_TRANS: State[];
+export declare const TAKING_BETS_EVENT_TRANS: State[];
+export declare const START_ROUND_EVENT_TRANS: State[];
+export declare const CRASH_EVENT_TRANS: State[];
+export declare const INVALID_TRANSITION = "INVALID STATE TRANSITION";
+export declare const ERROR_INITIALIZING_GAME_ROUND = "ERROR_INITIALIZING_GAME_ROUND";
